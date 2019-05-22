@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/circle/circle",
     "pages/index2/index2",
-    "pages/array/array"
+    "pages/array/array",
+    "pages/reqTest/reqTest",
+    "pages/templateTest/templateTest"
   ],
   "window": {
     "backgroundTextStyle": "light",

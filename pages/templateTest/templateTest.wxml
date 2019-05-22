@@ -1,0 +1,10 @@
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+
+<block wx:for="{{items}}" wx:key="index">
+  <template is="msgItem" data="{{...item}}"/>
+</block>
